@@ -1,0 +1,12 @@
+# requirements.txt (উদাহরণ)
+Flask[async]>=2.0
+requests>=2.25
+aiohttp>=3.7
+pycryptodome>=3.9
+protobuf>=3.15,<4.0 # এই ভার্সন পিন করা ভালো
+APScheduler>=3.7,<4.0
+google-api-python-client
+googleapis-common-protos
+Werkzeug>=2.0
+gunicorn # <-- এটি যোগ করুন
+urllib3 # <-- এটি যোগ করুন (যদিও requests এর সাথে আসতে পারে, নিশ্চিত করার জন্য যোগ করা ভালো)

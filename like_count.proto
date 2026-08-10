@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message BasicInfo {
+  int64 UID = 1;
+  string PlayerNickname = 3;
+  int64 Likes = 21;
+}
+
+message Info {
+  BasicInfo AccountInfo = 1;
+}

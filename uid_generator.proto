@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message uid_generator {
+  int64 saturn_ = 1;
+  int64 garena = 2;
+}
